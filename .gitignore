@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Environment variables / secrets
+.env
+
+# Data files (raw/processed data shouldn't bloat the repo)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
